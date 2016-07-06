@@ -7,7 +7,6 @@ for i in range(n):
     openBrk = ['(', '{', '[']
     closeBrk = [')', '}', ']']
     stack = []
-    current = True
     result = 'YES'
     for j in list(inputStr):
         if j in openBrk:
